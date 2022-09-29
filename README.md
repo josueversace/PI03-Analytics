@@ -262,7 +262,7 @@ Ya podemos usar nuestros iconos en nuestros graficos.
 ## Creando visualizacion en grafico de lineas
 Modificamos nuestro grafico incial y ampliaremos el grafico, de tal manera que se aprecien la linea de precio y las medias moviles.
 
-[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/grafico%20final.png?raw=true)]
+[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/BITCOIN.png?raw=true)]
 
 Añadimos a nuestro grafico el precio y Maximos y Minimos de cierre, ademas del volumen.
 
@@ -280,7 +280,6 @@ Usando la herramienta externa 'Tabular editor', damos configuracion a nuestro fi
 
 En nuestro ejemplo usamos $100.
 
-
 ### Creando el Dashboard
 
 Usaremos las columnas de Cryto Price[result.close], Cryto Price[result.volumen], y para mejorar nuestra tabla con los resumenes de medidas para nuestras criptomonedas, crearemos nuevas medidas como: %Change(-30) 
@@ -294,6 +293,12 @@ Esta medida nos sirve para ver la variacion de precio y los etiquetaremos. Si es
 Ademas añadimos micrograficos para mejorar la presentacion y la calculadora previamente esstablecida
 
 [![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/DASHBOARD%20FINAL.png?raw=true)]
+
+Cada Fila de nuestra tabla, está relacionada con la vista ampliada del activo, para ir a los detalles, bastara con hacer click derecho y luego ir a detalles, y nos arrojará la siguiente grafica:
+
+
+[![N|Solid](https://github.com/josueversace/PI03-Analytics/blob/main/Images/Vista%20final.png?raw=true)]
+
 
 ## Conclusiones
 - Graficamente: se observa que la media movil de 50, está por debajo de la media de 200, esto indica que en todas las criptos, la tendencia bajista aun está presente. 
